@@ -1,0 +1,9 @@
+pandas
+numpy
+matplotlib
+fredapi
+yfinance
+statsmodels
+arch
+ruptures
+python-dotenv
