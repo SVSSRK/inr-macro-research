@@ -22,7 +22,7 @@ def load_all():
     
     inr   = fetch_series(fred, 'DEXINUS',      'INR_USD')
     brent = fetch_series(fred, 'DCOILBRENTEU', 'BRENT')
-    forex = fetch_series(fred, 'RESA34',        'INDIA_FOREX_RESERVES')
+    forex = fetch_series(fred, 'TRESEGINM052N',        'INDIA_FOREX_RESERVES')
     fed   = fetch_series(fred, 'FEDFUNDS',      'FED_FUNDS_RATE')
     
     df = pd.concat([inr, brent, forex, fed], axis=1)
